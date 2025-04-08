@@ -1,26 +1,39 @@
-<div class="application-icon"><a href="#"><img src="./img/side_button.svg" alt="LINE_image"></a></div>
-    <div class="application-icon_sub">
-        <a href="" target="_blank" class="pre-register-button">事前申し込みはこちら（無料）
-           <img src="./img/LINE_Brand_icon.png" alt="LINE" class="line-icon" />
-        </a>
+</main>
+
+    <div class="scrollPc">
+        <a href="#" target="_blank"><img src="../img/parts/side_line.svg" alt=""></a>
     </div>
-    <footer>
-        <div class="footer_container">
-            <div class="footer_button">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdphU7Vu9xdSpRV0xaVSt9C6MpHUYG3OsTh7Vuqj8sGyInYqA/viewform">
-                    <img src="./img/footer_button.png" alt="footer_button">
-                    <span class="footer_button_text">出展希望企業はこちら</span>
-                </a>
+
+    <div class="scrollSp">
+        <div class="apply">
+            <a href="#" target="_blank"><span class="apply__title">事前申し込みはこちら（無料）</span><img src="../img/line.png" alt=""></a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="limited-width">
+            <div class="footer__exhibit">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdphU7Vu9xdSpRV0xaVSt9C6MpHUYG3OsTh7Vuqj8sGyInYqA/viewform" target="_blank">出展希望企業はこちら</a>
             </div>
-            <div class="footer_border"><img src="./img/footer_border.png" alt="footer_border"></div>
-            <div class="footer_logo">
-                <a href="#" class="announce">運営会社</a>
-                <a href="#"><img src="./img/footer_logo.png" alt="footer_logo"></a>
-                <a href="#" class="security">個人情報保護方針</a>
+            <div class="footer__wrap">
+                <span class="footer__wrap__company">運営会社</span>
+                <img src="../img/stocksun_logo.png" alt="">
+                <a href="#" target="_blank" class="footer__wrap__policy">個人情報保護方針</a>
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./js/accordion.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            $('#readMore').on('click', function() {
+                $(this).hide();
+                $('.exhibitor__list').addClass('opened');
+            })
+        });
+    </script>
 </body>
+
 </html>
