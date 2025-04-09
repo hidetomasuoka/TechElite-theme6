@@ -228,7 +228,7 @@ br.sp {
   @media (max-width: 768px) {
     .kv {
       padding: 5px 10px 25px 10px;
-      background-image: url("../img/background.png"); } }
+      background-image: url("../img/sp/background_sp.png"); } }
   .kv__logo img {
     width: 150px; }
     @media (max-width: 768px) {
@@ -248,17 +248,38 @@ br.sp {
     margin-top: 40px; }
     @media (max-width: 768px) {
       .kv__title {
-        margin-top: 30px; } }
-    @media (max-width: 768px) {
+        margin-top: 30px; } 
       .kv__title img {
-        width: 90%; } }
+        display: none; }
+      .kv__title:before {
+        content: '';
+        display: block;
+        background-image: url("../img/sp/logo.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 100%;
+        height: 120px;
+        margin-bottom: 15px; }
+      .kv__title:after {
+        content: '';
+        display: block;
+        background-image: url("../img/sp/sub_title.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 100%;
+        height: 25px; } }
+    @media (min-width: 769px) {
+      .kv__title img {
+        width: 100%; } }
   .kv__date {
     margin-top: 10px;
     font-size: 2.9rem;
     font-weight: 500;
     font-style: italic;
     text-shadow: 0 3px 6px #000c4d; }
-    @media (max-width: 768px) {
+    @media (max-width: 390px) {
       .kv__date {
         font-size: 1.8rem; } }
     .kv__date small {
