@@ -838,17 +838,68 @@ br.sp {
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding: 50px 0 100px 0; }
+  padding: 50px 0 100px 0;
+  position: relative;
+  overflow: hidden; }
+  .faq::before {
+    content: "";
+    position: absolute;
+    top: 48%;
+    left: 0%;
+    width: 137px;
+    height: 133px;
+    background-image: url("../img/Polygon 5-1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    opacity: 0.8; }
+  .faq::after {
+    content: "";
+    position: absolute;
+    top: 0.5%;
+    right: 14.5%;
+    width: 205px;
+    height: 199px;
+    background-image: url("../img/Polygon 6.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    opacity: 0.8; }
+  .faq .polygon-small {
+    position: absolute;
+    top: 30%;
+    right: 9.5%;
+    width: 67px;
+    height: 65px;
+    background-image: url("../img/Polygon 5.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    opacity: 0.8; }
   @media (max-width: 575px) {
     .faq {
       background-image: url("../img/bg.png");
       background-size: contain;
       background-repeat: no-repeat;
-      padding: 50px 0; } }
+      padding: 50px 0; }
+    .faq::before {
+      width: 100px;
+      height: 100px;
+      top: 74%;
+      left: -6%; }
+    .faq::after {
+      width: 150px;
+      height: 150px;
+      top: -8%;
+      right: 21%; }
+    .faq .polygon-small {
+      display: none; } }
   .faq .title {
     color: #FDD35C; }
   .faq__list {
-    margin-top: 40px; }
+    margin-top: 40px;
+    position: relative;
+    z-index: 2; }
     @media (max-width: 768px) {
       .faq__list {
         display: block; } }
