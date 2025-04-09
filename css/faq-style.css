@@ -38,9 +38,9 @@
 .faq .polygon-small {
   position: absolute;
   top: 30%;
-  right: 15%;
-  width: 100px;
-  height: 100px;
+  left: 90.5%;
+  width: 67.49px;
+  height: 65.17px;
   background-image: url("../img/Polygon 5.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -208,22 +208,13 @@
     margin-bottom: 30px;
   }
   
-  .faq::before {
-    width: 100px;
-    height: 100px;
-    bottom: -10px;
-    left: -10px;
-  }
-  
+  .faq::before,
   .faq::after {
-    width: 150px;
-    height: 150px;
+    display: none;
   }
   
   .faq .polygon-small {
-    width: 60px;
-    height: 60px;
-    right: 10%;
+    display: none;
   }
   
   .faq__list__box__a__content,
@@ -246,20 +237,7 @@
     margin-bottom: 20px;
   }
   
-  .faq::before {
-    width: 80px;
-    height: 80px;
-  }
   
-  .faq::after {
-    width: 120px;
-    height: 120px;
-  }
-  
-  .faq .polygon-small {
-    width: 50px;
-    height: 50px;
-  }
   
   .faq__list__box__a__mark,
   .faq__list__box__q__mark {
@@ -271,14 +249,5 @@
   .faq__list__box__a__content,
   .faq__list__box__q__content {
     font-size: 14px;
-  }
-}
-
-/* Hide polygon decorative elements on screens 575px and below */
-@media (max-width: 575px) {
-  .faq::before,
-  .faq::after,
-  .faq .polygon-small {
-    display: none;
   }
 }
