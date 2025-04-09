@@ -273,3 +273,12 @@
     font-size: 14px;
   }
 }
+
+/* Hide polygon decorative elements on screens 575px and below */
+@media (max-width: 575px) {
+  .faq::before,
+  .faq::after,
+  .faq .polygon-small {
+    display: none;
+  }
+}

@@ -636,8 +636,8 @@ br.sp {
         z-index: 3;
         height: 40px;
         width: 100%;
-        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.9) 50%, #fff 100%);
-        background: linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.9) 50%, #fff 100%); }
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.9) 50%, #000 100%);
+        background: linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.9) 50%, #000 100%); }
       .schedule__wrap.opened {
         max-height: none;
         height: auto; }
@@ -664,7 +664,7 @@ br.sp {
           .schedule__wrap__padbox__box {
             padding: 15px 10px; } }
         .schedule__wrap__padbox__box.mc {
-          height: 185px; }
+          height: 117px; }
     @media (max-width: 768px) {
       .schedule__wrap.opened {
         height: auto; }
