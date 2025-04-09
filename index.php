@@ -165,7 +165,7 @@
                 </div>
                 <div class="pickup__list__box">
                         <div class="pickup__list__box__image">
-                            <a href="https://oplan.co.jp/" target="_blank" rel="noopener noreferrer"><img src="../img/oplan.png" alt="オープラン株式会社"></a>
+                            <a href="https://oplan.co.jp/" target="_blank" rel="noopener noreferrer"><img src="../img/oplan.png" alt="オープラン株式会社" class="logo-oplan"></a>
                         </div>
                         <div class="pickup__list__box__desc">
                             フリーランスの方も高単価案件希望なら【オープラン】！1000件以上の高単価案件参画実績！単価も公開し、営業も親身に相談できる会社です。新規自社サービス【CAREEBLE】も展開中！
@@ -174,7 +174,7 @@
 
                  <div class="pickup__list__box">
                     <div class="pickup__list__box__image">
-                        <a href="https://pe-bank.co.jp/" target="_blank" rel="noopener noreferrer"><img src="./img/PE-BANK.png" alt="pe-bank"></a>
+                        <a href="https://pe-bank.co.jp/" target="_blank" rel="noopener noreferrer"><img src="./img/PE-BANK.png" alt="pe-bank" class="logo-pebank"></a>
                     </div>
                     <div class="pickup__list__box__desc">
                         ITフリーランスの仕事探しなら【PE-BANK】へ。Web・SE系を中心に毎月1,000件以上のご紹介。
@@ -182,7 +182,7 @@
                 </div>
                  <div class="pickup__list__box">
                     <div class="pickup__list__box__image">
-                        <a href="https://boc-japan.com/" target="_blank" rel="noopener noreferrer"><img src="./img/BOCjapan.png" alt="boc-japan"></a>
+                        <a href="https://boc-japan.com/" target="_blank" rel="noopener noreferrer"><img src="./img/BOCjapan.png" alt="boc-japan" class="logo-bocjapan"></a>
                     </div>
                     <div class="pickup__list__box__desc">
                         <div class="picup_text">台湾の「食文化」の導入により、日本の飲食業をクリエイティブに。</div>
@@ -190,19 +190,19 @@
                 </div>
                 <div class="pickup__list__box">
                     <div class="pickup__list__box__image">
-                        <a href="https://sucsak.com/"><img src="./img/creava.png" alt="creava"></a>
+                        <a href="https://sucsak.com/"><img src="./img/creava.png" alt="creava" class="logo-creava"></a>
                     </div>
                     <div class="pickup__list__box__desc">
                         月額制システム開発チームレンタルSucSak(サクサク)を運営している東京新宿のシステム開発会社です。
                         <div class="sucsak_container">
-                            <img src="./img/sucsak.png" alt="sucsak">
+                            <img src="./img/sucsak.png" alt="sucsak" class="logo-sucsak">
                             <a href="https://sucsak.com/" class="sucsak_url">：https://sucsak.com/</a>
                         </div>
                     </div>
                 </div>
                 <div class="pickup__list__box">
                     <div class="pickup__list__box__image">
-                        <div class="quartet"><a href="https://quartetcom.co.jp/"><img src="./img/QUARTET.png" alt="quartet"></a></div>
+                        <div class="quartet"><a href="https://quartetcom.co.jp/"><img src="./img/QUARTET.png" alt="quartet" class="logo-quartet"></a></div>
                     </div>
                     <div class="pickup__list__box__desc">
                         1000業種以上の圧倒的運用実績！リスティング、Facebook・TwitterなどのSNS広告もおまかせ。

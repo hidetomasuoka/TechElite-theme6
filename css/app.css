@@ -282,7 +282,7 @@ br.sp {
   background-position: center; }
   @media (max-width: 768px) {
     .back2 {
-      background-image: url("../img/back2.svg");
+      background-image: none;
       background-size: contain;
       background-repeat: no-repeat; } }
 
@@ -291,7 +291,10 @@ br.sp {
   padding: 80px 0 40px 0; }
   @media (max-width: 768px) {
     .overview {
-      padding: 60px 0 30px 0; } }
+      padding: 60px 0 30px 0;
+      background-image: url("../img/sp/back2.svg");
+      background-size: contain;
+      background-repeat: no-repeat; } }
   .overview .title {
     color: #81D7FC; }
   .overview__desc {
@@ -726,6 +729,12 @@ br.sp {
               height: auto;
               margin-top: 30px;
               font-size: 1.05rem; } }
+          @media (max-width: 390px) {
+            .schedule__wrap__padbox__box__contents__title {
+              max-width: 248px;
+              margin-left: auto;
+              margin-right: auto;
+            } }
   .schedule__continue {
     margin-top: 10px;
     display: none; }
@@ -841,7 +850,13 @@ br.sp {
   padding: 10px;
   padding-right: 0;
   text-align: center;
-  display: block; }
+  display: block;
+  background-image: url("../img/side_button.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  width: 70px;
+  height: 200px; }
   @media (max-width: 768px) {
     .scrollPc {
       display: none; } }
