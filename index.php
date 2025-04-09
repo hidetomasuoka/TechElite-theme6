@@ -447,6 +447,7 @@
         </section>
 
         <section class="faq">
+            <div class="polygon-small"></div>
             <div class="limited-width-small">
                 <h2 class="title">
                     FAQ
