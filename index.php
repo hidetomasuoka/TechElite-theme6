@@ -440,7 +440,7 @@
 
                 
                 <div class="schedule__continue">
-                    <span class="schedule__continue__btn" id="readMore">Read more</span>
+                    <span class="schedule__continue__btn">Read more</span>
                 </div>
     
             </div>
