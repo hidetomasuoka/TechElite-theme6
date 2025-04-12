@@ -184,7 +184,7 @@ br.sp {
 .apply__title {
   padding: 10px;
   padding-right: 0;
-  font-size: 1.2rem;
+  font-size: 24px;
   font-weight: 500;
 }
 .apply a {
@@ -198,6 +198,7 @@ br.sp {
   border-radius: 9999px;
   border: 2px solid var(--color-white);
   padding: 0 30px;
+  text-decoration: none;
 }
 .apply a:hover {
   color: var(--color-white);
@@ -211,7 +212,7 @@ br.sp {
 .exhibit__title {
   padding: 10px;
   padding-right: 0;
-  font-size: 1.2rem;
+  font-size: 60px;
   font-weight: 500;
 }
 .exhibit a {
@@ -245,7 +246,7 @@ br.sp {
 ******************/
 .title {
   font-style: italic;
-  font-size: 2.5rem;
+  font-size: 60px;
 }
 @media (max-width: 768px) {
   .title {
@@ -306,8 +307,7 @@ br.sp {
   .kv .limited-width {
     text-align: center; }
   .kv__subtitle {
-    margin-top: 40px;
-    font-size: 1.7rem;
+    font-size: 28px;
     font-weight: 500; }
     @media (max-width: 768px) {
       .kv__subtitle {
@@ -315,6 +315,9 @@ br.sp {
         font-size: 1.15rem; } }
   .kv__title {
     margin-top: 40px; }
+    .kv__title img {
+      width: 562px;
+      height: 342.337px; }
     @media (max-width: 768px) {
       .kv__title {
         margin-top: 30px; } 
@@ -344,18 +347,25 @@ br.sp {
         width: 100%; } }
   .kv__date {
     margin-top: 10px;
-    font-size: 2.9rem;
+    font-size: 45.874px;
     font-weight: 500;
     font-style: italic;
     text-shadow: 0 3px 6px #000c4d; }
-    @media (max-width: 390px) {
+    @media screen and (max-width: 390px) {
       .kv__date {
-        font-size: 1.8rem; } }
-    .kv__date small {
-      font-weight: 500; }
+        font-size: 1.7rem; } }
+    .kv__date .kv__date__small {
+      font-weight: 500;
+      font-size: 33.36px; /* Figmaデザインに合わせたサイズ */
+    }
+    @media screen and (max-width: 390px) {
+      .kv__date .kv__date__small {
+        font-size: 1.3rem;
+      }
+    }
   .kv__location {
     margin-top: 5px;
-    font-size: 1.7rem;
+    font-size: 29.193px;
     font-weight: 500;
     text-shadow: 0 3px 6px #000c4d; }
     @media (max-width: 768px) {
@@ -378,7 +388,7 @@ br.sp {
 
 .overview {
   text-align: center;
-  padding: 80px 0 40px 0; }
+  padding: 0px 0 40px 0; }
   @media (max-width: 768px) {
     .overview {
       padding: 60px 0 30px 0;
@@ -823,7 +833,7 @@ br.sp {
                   max-width: 156px;
                   margin-top: 0; } }
         .schedule__wrap__padbox__box__contents__title {
-          font-size: 1.3rem;
+          font-size: 20px;
           font-weight: 700;
           margin-top: 10px;
           display: flex;
@@ -853,11 +863,12 @@ br.sp {
               height: auto;
               margin-top: 30px;
               font-size: 1.05rem; } }
-          @media (max-width: 390px) {
+          @media screen and (max-width: 376px) {
             .schedule__wrap__padbox__box__contents__title {
               max-width: 248px;
               margin-left: auto;
               margin-right: auto;
+              font-size: 0.95rem;
             } }
   .schedule__continue {
     text-align: center;
