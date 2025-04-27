@@ -3,7 +3,7 @@
             <div class="kv__logo">
                 <a href="#"><img src="../img/stocksun_logo.png" alt=""></a>
             </div>
-            <div class="limited-width">
+            <div class="limited-width-kv">
                 <div class="kv__subtitle">
                     日本最大規模のフリーランスイベント
                 </div>
@@ -11,36 +11,39 @@
                     <img src="../img/kv.svg" alt="フリーランスサミット">
                 </h1>
                 <div class="kv__date">
-                    3/4 <small class="kv__date__small">Sat</small> 10:00-18:00
+                    3/4 <small class="kv__date__small">Sat</small> <span class="kv__time">10:00-18:00</span>
                 </div>
                 <div class="kv__location">
-                    東京国際フォーラム ホールE2
+                    東京国際フォーラム  ホールE2
                 </div>
                 <div class="apply">
-                    <a href="#" target="_blank"><span class="apply__title">事前申し込みはこちら（無料）</span><img src="../img/LINE_Brand_icon.png" alt=""></a>
+                    <a href="#" target="_blank"><span class="apply__title">事前申し込みはこちら（無料）</span><img src="./img/LINE_Brand_icon.png" alt="" width="57" height="57"></a>
                 </div>
             </div>
         </section>
     <div class="back2">
+          <div class="back4">
             <section class="overview">
-                <div class="limited-width">
-                    <h2 class="title">
+                <div class="limited-width-overview">
+                    <h2 class="title overview__title">
                         Freelance Summit
                     </h2>
                     <div class="subtitle">
-                        フリーランスサミットとは？
+                        　フリーランスサミットとは？　
                     </div>
                     <div class="overview__desc">
-                        「FREELANCE SUMMIT」は、StockSun株式会社が主催する<br>日本最大規模のフリーランスイベントです。
+                    「FREELANCE SUMMIT」は、StockSun株式会社が主催する<br>
+                    日本最大規模のフリーランスイベントです。
                     </div>
                     <div class="overview__detail">
                         各業界でTOPクラスのフリーランスが集結するイベント。有名企業が集結する60ブースもの出展エリアに加え、各領域で圧倒的に結果を出し続ける精鋭フリーランス達が、自身のノウハウを語ります。他のイベントでは味わえない、新たな体験と出会える充実したコンテンツを用意しています。
                     </div>
                 </div>
+        <div>
             </section>
             <section class="summary">
-                <div class="limited-width">
-                    <h2 class="title">
+                <div class="limited-width-summary">
+                    <h2 class="title summary__title">
                         Event Summary
                     </h2>
                     <div class="subtitle">
@@ -50,25 +53,24 @@
                         <table class="summary__detail__table">
                             <tbody>
                                 <tr>
-                                    <td class="summary__detail__table__column"><span class="box">開催日程</span></td>
-                                    <td>2023年3月4日（土）<br class="sp">開場10:00 閉場18:00（受付開始9:30-）</td>
+                                    <td class="summary__detail__table__column__date"><span class="box">開催日程</span></td>
+                                    <td class="summary__detail__table__value__date">　2023年3月4日（土）<br class="sp">　開場10:00 閉場18:00<br class="sp">（受付開始9:30-）</td>
                                 </tr>
                                 <tr>
-                                    <td class="summary__detail__table__column"><span class="box">会場</span></td>
-                                    <td>東京国際フォーラム ホールE2</td>
+                                    <td class="summary__detail__table__column__venue"><span class="box">会場</span></td>
+                                    <td class="summary__detail__table__value__venue">　東京国際フォーラム ホールE2</td>
                                 </tr>
                                 <tr>
-                                    <td class="summary__detail__table__column"><span class="box">イベント内容</span></td>
-                                    <td>
-                                        企業ブース出展：60ブース<br>ビジネス系セミナー：12枠
-                                    </td>
+                                    <td class="summary__detail__table__column__contents"><span class="box">イベント内容</span></td>
+                                    <td class="summary__detail__table__value__contents">　企業ブース出展：60ブース<br>　ビジネス系セミナー：12枠</td>
                                 </tr>
                                 <tr>
-                                    <td class="summary__detail__table__column"><span class="box">対象者</span></td>
-                                    <td>経営者 / フリーランス / <br class="sp">独立志望の会社員</td>
+                                    <td class="summary__detail__table__column__target"><span class="box">対象者</span></td>
+                                    <td class="summary__detail__table__value__target">
+                                    　経営者 / フリーランス /<br class="sp">　独立志望の会社員</td>
                                 </tr>
                                 <tr>
-                                    <td class="summary__detail__table__column">
+                                    <td class="summary__detail__table__column__access">
                                         <div>
                                             <span class="box">アクセス</span>
                                         </div>
@@ -109,8 +111,8 @@
             </section>
         </div>
         <section class="contents">
-            <div class="limited-width">
-                <h2 class="title">
+            <div class="limited-width-contents">
+                <h2 class="title contents__title">
                     Contents
                 </h2>
                 <div class="subtitle">
@@ -127,7 +129,7 @@
                             </div>
                             <img src="./img/ribbon.svg" alt="リボン" class="ribbon">
                             <div class="contents__wrap__box__detail__appeal">
-                                <span class="number">60</span>ブースの企業エリア
+                                <span class="number">60</span><span class="text">ブースの企業エリア</span>
                             </div>
                             <img src="./img/contents1.png" alt="サミットの様子1" class="scenery">
                         </div>
@@ -142,7 +144,7 @@
                             </div>
                             <img src="./img/ribbon.svg" alt="リボン" class="ribbon">
                             <div class="contents__wrap__box__detail__appeal">
-                                豪華セミナーを開催
+                            <span class="text">豪華セミナーを開催</span>
                             </div>
                             <img src="./img/contents2.png" alt="サミットの様子2" class="scenery">
                         </div>
@@ -156,43 +158,43 @@
 
 
         <section class="pickup">
-            <div class="limited-width">
-                <h2 class="title">
+            <div class="limited-width-pickup">
+                <h2 class="title pickup__title">
                     Pick Up
                 </h2>
                 <div class="subtitle">
                     注目の企業
                 </div>
                 <div class="pickup__list__box">
-                        <div class="pickup__list__box__image">
+                        <div class="pickup__list__box__image pickup__list__box__image--oplan">
                             <a href="https://oplan.co.jp/" target="_blank" rel="noopener noreferrer"><img src="../img/oplan.png" alt="オープラン株式会社" class="logo-oplan"></a>
                         </div>
-                        <div class="pickup__list__box__desc">
-                            フリーランスの方も高単価案件希望なら【オープラン】！1000件以上の高単価案件参画実績！単価も公開し、営業も親身に相談できる会社です。新規自社サービス【CAREEBLE】も展開中！
+                        <div class="pickup__list__box__desc pickup__list__box__desc--oplan">
+                        オープラン株式会社は「ITサービス」を軸に「人」と「グローバル」に向き合い日本を代表する企業になるべく2015年に産声をあげたベンチャー企業です。 <br> <a href="https://oplan.co.jp/" class="op_url">https://oplan.co.jp/</a>
                         </div>
                     </div>
 
                  <div class="pickup__list__box">
-                    <div class="pickup__list__box__image">
+                    <div class="pickup__list__box__image pickup__list__box__image--pebank">
                         <a href="https://pe-bank.co.jp/" target="_blank" rel="noopener noreferrer"><img src="./img/PE-BANK.png" alt="pe-bank" class="logo-pebank"></a>
                     </div>
-                    <div class="pickup__list__box__desc">
+                    <div class="pickup__list__box__desc pickup__list__box__desc--pebank">
                         ITフリーランスの仕事探しなら【PE-BANK】へ。Web・SE系を中心に毎月1,000件以上のご紹介。
                     </div>
                 </div>
                  <div class="pickup__list__box">
-                    <div class="pickup__list__box__image">
+                    <div class="pickup__list__box__image pickup__list__box__image--bocjapan">
                         <a href="https://boc-japan.com/" target="_blank" rel="noopener noreferrer"><img src="./img/BOCjapan.png" alt="boc-japan" class="logo-bocjapan"></a>
                     </div>
-                    <div class="pickup__list__box__desc">
+                    <div class="pickup__list__box__desc pickup__list__box__desc--bocjapan">
                         <div class="picup_text">台湾の「食文化」の導入により、日本の飲食業をクリエイティブに。</div>
                     </div>
                 </div>
                 <div class="pickup__list__box">
-                    <div class="pickup__list__box__image">
+                    <div class="pickup__list__box__image pickup__list__box__image--creava">
                         <a href="https://sucsak.com/"><img src="./img/creava.png" alt="creava" class="logo-creava"></a>
                     </div>
-                    <div class="pickup__list__box__desc">
+                    <div class="pickup__list__box__desc pickup__list__box__desc--creava">
                         月額制システム開発チームレンタルSucSak(サクサク)を運営している東京新宿のシステム開発会社です。
                         <div class="sucsak_container">
                             <img src="./img/sucsak.png" alt="sucsak" class="logo-sucsak">
@@ -201,22 +203,23 @@
                     </div>
                 </div>
                 <div class="pickup__list__box">
-                    <div class="pickup__list__box__image">
+                    <div class="pickup__list__box__image pickup__list__box__image--quartet">
                         <div class="quartet"><a href="https://quartetcom.co.jp/"><img src="./img/QUARTET.png" alt="quartet" class="logo-quartet"></a></div>
                     </div>
-                    <div class="pickup__list__box__desc">
+                    <div class="pickup__list__box__desc pickup__list__box__desc--quartet">
                         1000業種以上の圧倒的運用実績！リスティング、Facebook・TwitterなどのSNS広告もおまかせ。
                     </div>
                 </div>   
             </div>
         </div>  
-    </section>   
+    </section>
+    <div class="back3">
     <section class="exhibitor">
-            <div class="limited-width">
-                <h2 class="title">
+            <div class="limited-width-exhibitor">
+                <h2 class="title exhibitor__title">
                     About Exhibitors
                 </h2>
-                <div class="subtitle">
+                <div class="subtitle exhibitor__subtitle">
                     出展企業一覧
                 </div>
                 <div class="exhibitor__list">
@@ -228,7 +231,7 @@
                         株式会社グラントホープ<br>
                         Modis株式会社<br>
                         INTLOOP株式会社<br>
-                    L    angdemy株式会社<br>
+                        angdemy株式会社<br>
                         BOCジャパン合同会社<br>
                     </div>
                     <div class="exhibitor__list__right">
@@ -248,12 +251,13 @@
                 </div>
             </div>
         </section>
+    </div>
         <section class="schedule">
-            <div class="limited-width">
-                <h2 class="title">
+            <div class="limited-width-schedule">
+                <h2 class="title schedule__title">
                     Time Schedule
                 </h2>
-                <div class="subtitle">
+                <div class="subtitle schedule__subtitle">
                     タイムスケジュール
                 </div>
                 <div class="schedule__wrap">
@@ -267,7 +271,7 @@
                                     <img src="../img/dj.png" alt="">
                                 </div>
                                 <div class="schedule__wrap__padbox__box__contents__title">
-                                    ビジネスを学ぶ前に
+                                    今、SNSを始めるなら
                                 </div>
                             </div>
                         </div>
@@ -327,7 +331,7 @@
                                     <img src="../img/kinoshita.png?2023013001" alt="">
                                 </div>
                                 <div class="schedule__wrap__padbox__box__contents__title">
-                                    現役上場企業社長が語る最新WEBマーケティング論
+                                    現役上場企業社長が語る<br>最新WEBマーケティング論
                                 </div>
                             </div>
                         </div>
@@ -387,7 +391,7 @@
                                 <div class="schedule__wrap__padbox__box__contents__image">
                                     <img src="../img/seisei.png" alt="" class="long2">
                                 </div>
-                                <div class="schedule__wrap__padbox__box__contents__title">
+                                <div class="schedule__wrap__padbox__box__contents__title__seisei">
                                     エンジニアとして独立し、年収3000万円を超える方法
                                 </div>
                             </div>
@@ -449,7 +453,7 @@
         <section class="faq">
             <div class="polygon-small"></div>
             <div class="limited-width-small">
-                <h2 class="title">
+                <h2 class="title faq__title">
                     FAQ
                 </h2>
                 <div class="subtitle">
@@ -513,5 +517,7 @@
                 </div>
             </div>
         </section>
+     </main>
+
 
 <?php include 'footer.php'; ?>
