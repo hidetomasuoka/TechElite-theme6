@@ -806,7 +806,7 @@ h2.title.exhibitor__title{
   }
   .summary__detail__table {
     margin-top: -5px;
-    margin-left: 10px;
+    padding-left: 10px;
   }
 
   .summary__detail__table td {
