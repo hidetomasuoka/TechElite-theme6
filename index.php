@@ -415,7 +415,7 @@
             <div class="schedule__wrap__padbox">
                 <div class="schedule__wrap__padbox__box mc">
                     <img src="../img/time.svg" class="time">
-                    <div class="start">MC</div>
+                    <div class="start_mc">MC</div>
                     <div class="schedule__wrap__padbox__box__contents">
                         <div class="schedule__wrap__padbox__box__contents__image">
                             <img src="../img/uemoto.png" alt="" class="longmc">

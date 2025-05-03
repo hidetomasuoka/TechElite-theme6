@@ -1458,6 +1458,14 @@ padding-top: 10px;
   font-weight: 700;
 }
 
+.schedule__wrap__padbox__box .start_mc {
+  position: absolute;
+  left: 5px;
+  top: 11px;
+  font-weight: 700;
+  width: 60px;
+  text-align: center;
+}
 .schedule__wrap__padbox__box__contents {
   display: block;
   width: 100%;
