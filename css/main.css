@@ -1829,7 +1829,8 @@ padding-top: 10px;
 /* Fixed navigation */
 .scrollPc {
   position: fixed;
-  bottom: 50%;
+  top: 50%;
+  transform: translateY(-50%);
   right: 0;
   padding: 10px;
   padding-right: 0;
