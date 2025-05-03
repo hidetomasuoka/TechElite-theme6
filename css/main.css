@@ -343,12 +343,14 @@ h2.title.exhibitor__title{
   background-image: url(../img/back3.svg);
   background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 @media (max-width: 768px) {
   .back3 {
     background-image: url(../img/sp/sp_back2.svg);
     background-size: 100% auto;
     background-position: center;
+    background-repeat: no-repeat;
     position: relative; 
   }
 }
@@ -1313,7 +1315,6 @@ padding-top: 10px;
 .exhibitor {
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   text-align: center;
   padding: 0px 0 65px 0;
 }
