@@ -786,7 +786,9 @@ h2.title.exhibitor__title{
 }
 
 .summary__detail__table__access .map {
+  padding-top: 40px;
   width: 50%;
+  height: 300px;
 }
 
 .summary__detail__table__access .map iframe {
