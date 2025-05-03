@@ -400,7 +400,7 @@ h2.title.exhibitor__title{
 
 .apply__title,
 .exhibit__title {
-  padding: 10px 0px 10px 6px;
+  padding: 10px 0px 10px 0px;
   padding-right: 0;
   font-weight: 500;
 }
@@ -450,8 +450,8 @@ h2.title.exhibitor__title{
 }
 
 .sp__apply a img{
-  width: 44.5px;
-  height: 44.5px;
+  width: 46.5px;
+  height: 46.5px;
 }
 
 
