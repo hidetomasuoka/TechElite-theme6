@@ -1309,6 +1309,7 @@ padding-top: 10px;
 .exhibitor {
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   padding: 0px 0 65px 0;
 }
