@@ -1563,6 +1563,8 @@ padding-top: 10px;
   letter-spacing: 1.6px;
 }
 
+
+
 /* モバイル対応の設定 */
 @media (max-width: 768px) {
   .schedule {
@@ -1624,6 +1626,14 @@ padding-top: 10px;
     align-items: flex-start;
     min-height: auto;
   }
+  
+  .schedule__wrap__padbox__box__contents_mc {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: auto;
+  }
+  
   
   .schedule__continue {
     margin-top: 10px;
