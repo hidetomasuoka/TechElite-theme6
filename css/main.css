@@ -1001,6 +1001,7 @@ h2.title.exhibitor__title{
     border-bottom-right-radius: var(--border-radius-medium);
     border-bottom-left-radius: var(--border-radius-medium);
     padding: 14px 30px;
+    font-size: 14px;
 
   }
 
@@ -1749,6 +1750,7 @@ padding-top: 10px;
 .faq__list__box__q__content {
   width: calc(100% - 30px);
   text-align: left;
+  font-size: 18px;
 }
 
 .faq__contact {
