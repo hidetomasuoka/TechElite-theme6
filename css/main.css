@@ -1286,31 +1286,26 @@ padding-top: 10px;
 
 .pickup__list__box__image--oplan {
   position: relative;
-  left: -10px;
   top: 5px;
 }
 
 .pickup__list__box__desc--oplan {
   position: relative;
-  left: -10px;
   top: 5px;
 }
 
 .pickup__list__box__image--pebank {
   position: relative;
-  left: -15px;
   top: 10px;
 }
 
 .pickup__list__box__image--creava {
   position: relative;
-  left: -5px;
   top: -15px;
 }
 
 .pickup__list__box__desc--quartet {
   position: relative;
-  left: -10px;
   top: -15px;
 }
 
@@ -2451,7 +2446,6 @@ padding-top: 10px;
 
 .pickup__list__box__desc--creava {
   position: relative;
-  left: -5px;
   top: -15px;
 }
 
