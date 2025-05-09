@@ -1083,7 +1083,7 @@ h2.title.exhibitor__title{
     background-color: var(--color-white);
     border-bottom-right-radius: var(--border-radius-medium);
     border-bottom-left-radius: var(--border-radius-medium);
-    padding: 15px 30px;
+    padding: 16px 30px;
   }
   
   .contents__wrap__box__detail .scenery {
