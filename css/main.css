@@ -1289,6 +1289,7 @@ padding-top: 10px;
   position: relative;
   left: -10px;
   top: 5px;
+  
 }
 
 .pickup__list__box__desc--oplan {
@@ -2548,5 +2549,17 @@ padding-top: 10px;
 .pickup__list__box__desc--quartet {
   position: static;
   top: -15px;
+}
+.schedule__wrap__padbox__box__contents__image img.long3 {
+  height: auto;
+  max-height: 110px;
+  margin-top: 15px;
+  max-width: 100%;
+}
+.schedule__wrap__padbox__box__contents__image img.long2 {
+    height: auto;
+    max-height: 110px;
+    margin-top: 10px;
+    max-width: 100%;
 }
 }
