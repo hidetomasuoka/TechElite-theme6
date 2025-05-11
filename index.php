@@ -103,7 +103,7 @@
                     </table>
                     <div class="sp">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1620.4831751681602!2d139.7620742004749!3d35.67783053975676!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfac2438de1%3A0xee61015658323cbf!2z5p2x5Lqs5Zu96Zqb44OV44Kp44O844Op44OgIOODm-ODvOODq0E!5e0!3m2!1sja!2sjp!4v1674895668094!5m2!1sja!2sjp"
-                            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            style="border:0; padding: 0 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
