@@ -2330,7 +2330,8 @@ padding-top: 10px;
   
   .pickup__list__box__desc {
     width: 100%;
-    margin: 10px 5px;
+    margin: 10px 5px 0px 5px;
+    padding-right: 14px;
     font-size: 14px;
   }
   
@@ -2561,5 +2562,33 @@ padding-top: 10px;
     max-height: 110px;
     margin-top: 10px;
     max-width: 100%;
+}
+.pickup__list__box__image--oplan {
+  position: relative;
+  left: 0px;
+  top: 5px;
+}
+
+.pickup__list__box__image--pebank {
+  position: center;
+  left: 0px;
+  top: 10px;
+}
+
+.pickup__list__box__image--creava {
+  position: center;
+  left: 0px;
+  top: -15px;
+}
+
+.pickup__list__box__desc--quartet {
+  position: center;
+  left: 0px;
+  top: -15px;
+}
+.limited-width-pickup {
+  max-width: 1010px;
+  margin: 0 auto;
+  padding: 0 5px 40px 5px;
 }
 }
