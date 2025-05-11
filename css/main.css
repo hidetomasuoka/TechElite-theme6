@@ -840,7 +840,7 @@ h2.title.exhibitor__title{
 
   .summary__detail__table__column__contents{
     width: 100px;
-    padding: 19px 0 0 11px;
+    padding: 19px 0 0 10px;
   }
 
   .summary__detail__table__column__date
@@ -882,6 +882,7 @@ h2.title.exhibitor__title{
     font-size: 14px;
     line-height: 28.404px;
     padding: 0 0 10px 14px;
+    left: 0.5px;
   }
 
   
@@ -889,6 +890,7 @@ h2.title.exhibitor__title{
     font-size: 14px;
     line-height: 1.4;
     padding: 12px 12px;
+    left: 0.5px;
   }
 
   .summary__detail__table__value__target {
