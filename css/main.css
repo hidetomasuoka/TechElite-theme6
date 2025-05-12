@@ -973,8 +973,8 @@ h2.title.exhibitor__title{
   }
 
   .contents__wrap__box {
-    width: 435px;
-    height: 397px;
+    max-width: 435px;
+    max-height: 397px;
     flex-shrink: 0;
     border: 3px solid var(--color-accent);
     border-radius: var(--border-radius-medium);
