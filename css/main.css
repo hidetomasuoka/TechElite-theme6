@@ -973,8 +973,7 @@ h2.title.exhibitor__title{
   }
 
   .contents__wrap__box {
-    max-width: 435px;
-    max-height: 397px;
+    height: 397px;
     flex-shrink: 0;
     border: 3px solid var(--color-accent);
     border-radius: var(--border-radius-medium);
@@ -983,6 +982,7 @@ h2.title.exhibitor__title{
     margin-right: 50px;
     margin-bottom: 50px;
     border-radius: 10px;
+    width: auto;
   }
 
   .contents__wrap__box__title {
@@ -1033,10 +1033,10 @@ h2.title.exhibitor__title{
   }
 
   .contents__wrap__box__detail .scenery {
-    width: 340px;
-    height: 180px;
+    max-height: 180px;
     flex-shrink: 0;
     margin-top: 10px;
+    width: auto;
   }
 }
 
@@ -1938,6 +1938,17 @@ padding-top: 10px;
 /* ===================================================================
  * 9. Media Queries
  * =================================================================== */
+/* タブレットサイズ対応 */
+@media (max-width: 956px) and (min-width: 769px) {
+  .contents__wrap__box {
+    margin: 30px 20px;
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    max-height: none;
+  }
+}
+
 @media (max-width: 991px) {
   .schedule__wrap__padbox__box__contents__title {
     font-size: 1.2rem;
