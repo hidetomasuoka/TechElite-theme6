@@ -219,8 +219,8 @@
             <div class="subtitle exhibitor__subtitle">
                 出展企業一覧
             </div>
-            <div class="exhibitor__list">
-                <div class="exhibitor__list__left">
+            <div class="exhibitor__list opened">
+                <div class="exhibitor__list　left">
                     オープラン株式会社<br>
                     株式会社ビズリンク<br>
                     株式会社カルテットコミュニケーションズ<br>
@@ -231,7 +231,7 @@
                     angdemy株式会社<br>
                     BOCジャパン合同会社<br>
                 </div>
-                <div class="exhibitor__list__right">
+                <div class="exhibitor__list　right">
                     株式会社アユザック<br>
                     株式会社HandAid<br>
                     株式会社J-Proach<br>

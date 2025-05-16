@@ -2323,14 +2323,14 @@ padding-top: 10px;
     font-size: 14px;
   }
   
-  .exhibitor__list__left {
+  .exhibitor__list　left {
     position: static;
     right: auto;
     margin-bottom: 20px;
     font-size: 14px;
   }
   
-  .exhibitor__list__right {
+  .exhibitor__list　right {
     position: static;
     right: auto;
   }
