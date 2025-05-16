@@ -580,6 +580,20 @@ h2.title.exhibitor__title{
 @media (max-width: 768px) {
   .overview {
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .limited-width-overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
   }
 
   .overview__desc {
@@ -589,9 +603,10 @@ h2.title.exhibitor__title{
   .overview__detail {
     font-size: 14px;
     line-height: 1.6;
-    margin: 15px 10px;
-    max-width: 295px;
+    margin: 15px 0;
+    width: 90%;
     height: auto;
+    text-align: left;
   }
 
   .overview__detail br {
@@ -609,14 +624,28 @@ h2.title.exhibitor__title{
 @media (max-width: 390px) {
   .overview {
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .limited-width-overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
   }
 
   .overview__detail {
     font-size: 14px;
     line-height: 1.6;
-    margin: 15px 10px;
-    max-width: 295px;
+    margin: 15px 0;
+    width: 90%;
     height: auto;
+    text-align: left;
   }
 
   .overview__detail br.sp {
@@ -2171,7 +2200,6 @@ padding-top: 10px;
     font-size: 16px;
     line-height: 1.6;
     margin: 15px 10px;
-    max-width: 295px;
     height: auto;
   }
   
@@ -2421,7 +2449,6 @@ padding-top: 10px;
   }
   
   .overview__detail {
-    max-width: 295px;
     height: 312px;
     margin-left: 35px;
     margin-right: 20px;
