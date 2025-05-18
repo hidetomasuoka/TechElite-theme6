@@ -2476,6 +2476,15 @@ padding-top: 10px;
   }
 }
 
+@media (max-width: 768px) and (min-width: 500px) {
+  .schedule__wrap__padbox__box__contents__image img.long3 {
+    height: auto !important;
+    max-height: 81px !important;
+    margin-top: 5px !important;
+    max-width: 100% !important;
+  }
+}
+
 @media (max-width: 575px) {
   .schedule__continue {
     margin-top: 10px;
@@ -2662,3 +2671,4 @@ padding-top: 10px;
   padding: 0 5px 40px 5px;
 }
 }
+
