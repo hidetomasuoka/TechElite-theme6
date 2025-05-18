@@ -1154,6 +1154,8 @@ h2.title.exhibitor__title{
 
 }
 
+
+
 /* 6.5 Pickup
  * =================================================================== */
 .pickup {
@@ -1989,6 +1991,10 @@ padding-top: 10px;
     max-width: 100%;
     height: auto;
     max-height: none;
+  }
+  
+  .contents__wrap__box__title {
+    font-size: 21px;
   }
 }
 
