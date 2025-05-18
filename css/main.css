@@ -2008,6 +2008,12 @@ padding-top: 10px;
   }
 }
 
+@media (max-width: 804px) and (min-width: 769px) {
+  .schedule__wrap__padbox__box__contents__title.kinoshita {
+    font-size: 18px !important;
+  }
+}
+
 @media (max-width: 768px) {
   /* Typography */
   h2.title {

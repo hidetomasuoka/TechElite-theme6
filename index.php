@@ -322,7 +322,7 @@
                         <div class="schedule__wrap__padbox__box__contents__image">
                             <img src="../img/kinoshita.png?2023013001" alt="">
                         </div>
-                        <div class="schedule__wrap__padbox__box__contents__title">
+                        <div class="schedule__wrap__padbox__box__contents__title kinoshita">
                             現役上場企業社長が語る<br>最新WEBマーケティング論
                         </div>
                     </div>
