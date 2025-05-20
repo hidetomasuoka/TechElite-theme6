@@ -761,7 +761,7 @@ h2.title.exhibitor__title{
 .summary__detail__table__value__venue {
   font-weight: 700;
   position: relative;
-  left: -10px;
+  right: 20px;
 }
 
 .summary__detail__table__value__contents {
@@ -769,11 +769,10 @@ h2.title.exhibitor__title{
   font-weight: 700;
   line-height: 1.8;
   position: relative;
-  left: -5px;
-  padding-top: 20px;
+  right: 15px;
   line-height: 1.5;
   vertical-align: middle;
-  padding-top: 40px; 
+  padding-top: 30px; 
   padding-bottom: 30px;
 }
 
@@ -783,6 +782,7 @@ h2.title.exhibitor__title{
   font-weight: 700;
   position: relative;
   vertical-align: top;
+  right: 20px;
 }
 
 
@@ -1030,9 +1030,8 @@ h2.title.exhibitor__title{
     background-color: var(--color-white);
     border-bottom-right-radius: var(--border-radius-medium);
     border-bottom-left-radius: var(--border-radius-medium);
-    padding: 5px 48px 23px 47px;
+    padding: 15px 47px 23px 48px;
     font-size: 14px;
-    padding-top: -10px;
 
   }
 

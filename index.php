@@ -47,7 +47,7 @@
                     Event Summary
                 </h2>
                 <div class="subtitle">
-                    イベント開催概要
+                    　イベント開催概要　
                 </div>
                 <div class="summary__detail">
                     <table class="summary__detail__table">
@@ -113,7 +113,7 @@
     <section class="contents">
         <div class="limited-width-contents">
             <h2 class="title contents__title">
-                Contents
+                　Contents　
             </h2>
             <div class="subtitle">
                 イベント内容
@@ -158,7 +158,7 @@
     <section class="pickup">
         <div class="limited-width-pickup">
             <h2 class="title pickup__title">
-                Pick Up
+                　Pick Up　
             </h2>
             <div class="subtitle">
                 注目の企業
@@ -252,7 +252,7 @@
 <section class="schedule">
     <div class="limited-width-schedule">
         <h2 class="title schedule__title">
-            Time Schedule
+            　Time Schedule　
         </h2>
         <div class="subtitle schedule__subtitle">
             タイムスケジュール
