@@ -113,10 +113,10 @@
     <section class="contents">
         <div class="limited-width-contents">
             <h2 class="title contents__title">
-                　Contents　
+                Contents
             </h2>
             <div class="subtitle">
-                イベント内容
+                　イベント内容　
             </div>
             <div class="contents__wrap">
                 <div class="contents__wrap__box">
