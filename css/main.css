@@ -1030,7 +1030,7 @@ h2.title.exhibitor__title{
     background-color: var(--color-white);
     border-bottom-right-radius: var(--border-radius-medium);
     border-bottom-left-radius: var(--border-radius-medium);
-    padding: 14px 30px;
+    padding: 14px 30px 14px 30px;
     font-size: 14px;
 
   }
@@ -1051,6 +1051,8 @@ h2.title.exhibitor__title{
     line-height: 1;
     text-align: center;
     margin-right: 5px;
+    height: 48px;
+    width: 47px;
   }
 
   .contents__wrap__box__detail__appeal .text {
