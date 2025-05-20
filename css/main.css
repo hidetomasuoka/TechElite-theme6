@@ -1329,8 +1329,6 @@ padding-top: 10px;
 
 .pickup__list__box__desc--oplan {
   position: relative;
-  left: -10px;
-  top: 5px;
 }
 
 .pickup__list__box__image--pebank {
@@ -1347,8 +1345,7 @@ padding-top: 10px;
 
 .pickup__list__box__desc--quartet {
   position: relative;
-  left: -10px;
-  top: -15px;
+  top: -30px;
 }
 
 /* 6.6 Exhibitor
@@ -2536,8 +2533,7 @@ padding-top: 10px;
 
 .pickup__list__box__desc--creava {
   position: relative;
-  left: -5px;
-  top: -15px;
+  top: -25px;
 }
 
 .footer__exhibit {
