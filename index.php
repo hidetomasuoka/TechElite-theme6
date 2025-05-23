@@ -17,7 +17,7 @@
             東京国際フォーラム  ホールE2
         </div>
         <div class="apply">
-            <a href="#" target="_blank"><span class="apply__title">事前申し込みはこちら（無料）</span><img src="./img/LINE_Brand_icon.png" alt="" width="57" height="57"></a>
+            <a href="#" target="_blank"><span class="apply__title">事前申し込みはこちら(無料)</span><img src="./img/LINE_Brand_icon.png" alt="" width="57" height="57"></a>
         </div>
     </div>
 </section>
