@@ -54,20 +54,20 @@
                         <tbody>
                             <tr>
                                 <td class="summary__detail__table__column__date"><span class="box">開催日程</span></td>
-                                <td class="summary__detail__table__value__date">　2023年3月4日（土）<br class="sp">　開場10:00 閉場18:00<br class="sp">（受付開始9:30-）</td>
+                                <td class="summary__detail__table__value__date">2023年3月4日（土）<br class="sp">　開場10:00 閉場18:00<br class="sp">（受付開始9:30-）</td>
                             </tr>
                             <tr>
                                 <td class="summary__detail__table__column__venue"><span class="box">会場</span></td>
-                                <td class="summary__detail__table__value__venue">　東京国際フォーラム ホールE2</td>
+                                <td class="summary__detail__table__value__venue">東京国際フォーラム ホールE2</td>
                             </tr>
                             <tr>
                                 <td class="summary__detail__table__column__contents"><span class="box">イベント内容</span></td>
-                                <td class="summary__detail__table__value__contents">　企業ブース出展：60ブース<br>　ビジネス系セミナー：12枠</td>
+                                <td class="summary__detail__table__value__contents">企業ブース出展：60ブース<br>ビジネス系セミナー：12枠</td>
                             </tr>
                             <tr>
                                 <td class="summary__detail__table__column__target"><span class="box">対象者</span></td>
                                 <td class="summary__detail__table__value__target">
-                                    　経営者 / フリーランス /<br class="sp">　独立志望の会社員</td>
+                                    経営者 / フリーランス /<br class="sp">独立志望の会社員</td>
                             </tr>
                             <tr>
                                 <td class="summary__detail__table__column__access">

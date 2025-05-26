@@ -334,11 +334,13 @@ h2.title.exhibitor__title{
 }
 
 /* Background styles */
-.back2 (min-width: 769px)  {
+@media(min-width: 769px) {  
+.back2  {
   background-image: url(../img/back2.svg);
   background-size: contain;
   background-position: center -30px;
   background-repeat: no-repeat;
+}
 }
 @media (max-width: 768px) {
   .back4 {
@@ -765,15 +767,12 @@ h2.title.exhibitor__title{
 .summary__detail__table__value__date {
   font-weight: 700;
   position: relative;
-  left: -10px;
-  /* top: 0px; */ /* 削除 */
 }
 
 /* 会場のセルのスタイル */
 .summary__detail__table__value__venue {
   font-weight: 700;
   position: relative;
-  right: 20px;
 }
 
 .summary__detail__table__value__contents {
@@ -781,7 +780,6 @@ h2.title.exhibitor__title{
   font-weight: 700;
   line-height: 1.8;
   position: relative;
-  right: 15px;
   line-height: 1.5;
   vertical-align: middle;
   padding-top: 30px; 
@@ -794,7 +792,6 @@ h2.title.exhibitor__title{
   font-weight: 700;
   position: relative;
   vertical-align: top;
-  right: 20px;
 }
 
 
@@ -930,14 +927,15 @@ h2.title.exhibitor__title{
   .summary__detail__table__value__contents {
     font-size: 14px;
     line-height: 1.4;
-    padding: 12px 12px;
+    padding: 10px 10px;
     left: 0.5px;
   }
 
   .summary__detail__table__value__target {
     font-size: 14px;
     line-height: 28.404px;
-    padding: 15px 5px 10px 5px;
+    padding: 10px 5px 10px 5px;
+    left: 0px;
   }
   .summary__detail__table__value__targets {
     font-size: 14px;
