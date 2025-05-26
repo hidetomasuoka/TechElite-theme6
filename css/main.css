@@ -334,7 +334,7 @@ h2.title.exhibitor__title{
 }
 
 /* Background styles */
-.back2 {
+.back2 (min-width: 769px)  {
   background-image: url(../img/back2.svg);
   background-size: contain;
   background-position: center -30px;
@@ -344,8 +344,9 @@ h2.title.exhibitor__title{
   .back4 {
     background-image: url(../img/sp/sp_back2.svg);
     background-size: 100% auto;
-    background-position: center;
+    background-position: center  -30px;
     position: relative; 
+    background-repeat: no-repeat;
   }
 }
 
@@ -2476,10 +2477,9 @@ padding-top: 10px;
   
   .overview__detail {
     height: 312px;
-    margin-left: 35px;
-    margin-right: 20px;
     margin-top: 20px;
     line-height:37px;
+    padding: 0 30px;
   }
   
   .schedule__wrap__padbox__box__contents__title {
