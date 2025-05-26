@@ -109,6 +109,7 @@ a:hover {
 img {
   max-width: 100%;
   height: auto;
+  vertical-align: bottom;
 }
 
 /* Responsive line breaks */
@@ -163,7 +164,7 @@ h2.title.faq__title {
 h2.title.pickup__title,
 h2.title.exhibitor__title {
   position: relative;
-  right: -10px;
+  right: 10px;
 }
 
 h2.title.pickup__title{
@@ -326,8 +327,9 @@ h2.title.exhibitor__title{
 /* Background styles */
 .back2 {
   background-image: url(../img/back2.svg);
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: center -30px;
+  background-repeat: no-repeat;
 }
 @media (max-width: 768px) {
   .back4 {
@@ -342,7 +344,7 @@ h2.title.exhibitor__title{
 .back3 {
   background-image: url(../img/back3.svg);
   background-size: contain;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
 }
 @media (max-width: 768px) {
@@ -512,7 +514,7 @@ h2.title.exhibitor__title{
 }
 
 .kv__date {
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: clamp(24px, 4vw, 45.874px);
   font-weight: 500;
   font-style: italic;
@@ -1344,7 +1346,7 @@ padding-top: 10px;
 
 .pickup__list__box__desc--quartet {
   position: relative;
-  top: -30px;
+  top: -10px;
 }
 
 /* 6.6 Exhibitor
@@ -1363,7 +1365,7 @@ padding-top: 10px;
 .exhibitor__list {
   margin-top: 85px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: flex-start;
   line-height: 2;
   text-align: left;
@@ -2333,6 +2335,7 @@ padding-top: 10px;
     align-items: center;
     margin-top: 40px;
     font-size: 14px;
+    gap:0px;
   }
   
   .exhibitor__list　left {
@@ -2534,7 +2537,7 @@ padding-top: 10px;
 
 .pickup__list__box__desc--creava {
   position: relative;
-  top: -25px;
+  top: -10px;
 }
 
 .footer__exhibit {

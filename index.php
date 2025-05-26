@@ -158,10 +158,10 @@
     <section class="pickup">
         <div class="limited-width-pickup">
             <h2 class="title pickup__title">
-                　Pick Up　
+                Pick Up
             </h2>
             <div class="subtitle">
-                注目の企業
+            　　注目の企業　　
             </div>
             <div class="pickup__list__box">
                 <div class="pickup__list__box__image pickup__list__box__image--oplan">
@@ -217,7 +217,7 @@
                 About Exhibitors
             </h2>
             <div class="subtitle exhibitor__subtitle">
-                出展企業一覧
+                　　出展企業一覧　　
             </div>
             <div class="exhibitor__list opened">
                 <div class="exhibitor__list　left">
