@@ -912,8 +912,7 @@ h2.title.exhibitor__title{
   .summary__detail__table__value__venue {
     font-size: 14px;
     line-height: 1.4;
-    padding: 13px 0px;
-    left: 0px;
+    padding: 10px 15px;
   }
 
   .summary__detail__table__value__date{
@@ -927,15 +926,14 @@ h2.title.exhibitor__title{
   .summary__detail__table__value__contents {
     font-size: 14px;
     line-height: 1.4;
-    padding: 10px 10px;
+    padding: 10px 15px;
     left: 0.5px;
   }
 
   .summary__detail__table__value__target {
     font-size: 14px;
     line-height: 28.404px;
-    padding: 10px 5px 10px 5px;
-    left: 0px;
+    padding: 10px 15px;
   }
   .summary__detail__table__value__targets {
     font-size: 14px;
