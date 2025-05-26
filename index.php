@@ -252,10 +252,10 @@
 <section class="schedule">
     <div class="limited-width-schedule">
         <h2 class="title schedule__title">
-            　Time Schedule　
+            Time Schedule
         </h2>
         <div class="subtitle schedule__subtitle">
-            タイムスケジュール
+            　　タイムスケジュール　　
         </div>
         <div class="schedule__wrap">
             <div class="schedule__wrap__padbox">
@@ -436,7 +436,7 @@
             FAQ
         </h2>
         <div class="subtitle">
-            よくある質問
+            　　よくある質問　　
         </div>
         <div class="faq__list">
             <div class="faq__list__box">
