@@ -1818,7 +1818,7 @@ padding-top: 10px;
 .faq__list__box__q__content {
   width: calc(100% - 30px);
   text-align: left;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .faq__contact {
@@ -2694,5 +2694,11 @@ padding-top: 10px;
   margin: 0 auto;
   padding: 0 5px 40px 5px;
 }
+.faq__list__box__q__content,
+.faq__list__box__a__content
+ {
+  font-size: 16px;
+}
+
 }
 
