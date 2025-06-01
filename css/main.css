@@ -882,7 +882,7 @@ h2.title.exhibitor__title{
 
   .summary__detail__table__column__contents{
     width: 100px;
-    padding: 19px 0 0 10px;
+    padding: 19px 0 0 0px;
   }
 
   .summary__detail__table__column__date
@@ -893,7 +893,7 @@ h2.title.exhibitor__title{
 
   .summary__detail__table__column__venue{
     width: 100px;
-    padding: 16px 0 0 10px;
+    padding: 16px 0 0 0px;
   }
 
   .summary__detail__table__column__target
@@ -904,12 +904,12 @@ h2.title.exhibitor__title{
 
   .summary__detail__table__column__targets{
     width: 100px;
-    padding: 7px 0 0 10px;
+    padding: 7px 0 0 0px;
   }
   .summary__detail__table__column__access 
   {
     width: 100px;
-    padding: 20px 0 0 10px;
+    padding: 20px 0 0 0px;
   }
 
 
