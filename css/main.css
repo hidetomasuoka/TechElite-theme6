@@ -2702,3 +2702,23 @@ padding-top: 10px;
 
 }
 
+
+
+/* Date responsive display */
+.date-desktop {
+  display: block;
+}
+
+.date-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .date-desktop {
+    display: none;
+  }
+  
+  .date-mobile {
+    display: block;
+  }
+}
