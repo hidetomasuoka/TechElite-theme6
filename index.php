@@ -55,8 +55,8 @@
                             <tr>
                                 <td class="summary__detail__table__column__date"><span class="box">開催日程</span></td>
                                 <td class="summary__detail__table__value__date">
-                                    <span class="date-desktop">2023年3月4日（土）開場10:00 閉場18:00（受付開始9:30-）</span>
-                                    <span class="date-mobile">2023年3月4日（土）10:00〜18:00<br>（受付開始9:30-）</span>
+                                    <span class="date-desktop">2023年3月4日（土）開場10:00 閉場18:00(受付開始9:30-)</span>
+                                    <span class="date-mobile">2023年3月4日(土) 10:00〜18:00<br>(受付開始9:30-)</span>
                                 </td>
                             </tr>
                             <tr>

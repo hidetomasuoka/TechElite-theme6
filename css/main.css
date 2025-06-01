@@ -888,7 +888,7 @@ h2.title.exhibitor__title{
   .summary__detail__table__column__date
   {
     width: 100px;
-    padding: 7px 0 0 10px;
+    padding: 13px 0 0 0px;
   }
 
   .summary__detail__table__column__venue{
@@ -899,7 +899,7 @@ h2.title.exhibitor__title{
   .summary__detail__table__column__target
   {
     width: 100px;
-    padding: 17px 0 0 10px;
+    padding: 22px 0 0 0px;
   }
 
   .summary__detail__table__column__targets{
@@ -2309,6 +2309,7 @@ padding-top: 10px;
     max-width: 262.621px;
     margin: 0 auto;
     display: block;
+    margin-top: 4px;
   }
 
   .contents__wrap__box__detail__appeal {
